@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#selectionTitle {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+#selectionContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 200px;
+}
+
+.selections:hover {
+  text-decoration: underline;
+  font-size: 150%;
+}
+
+.images {
+  height: 200px;
+  width: auto;
+}
+
+.images:hover {
+  height: 250px;
+  width: auto;
+}
+/*# sourceMappingURL=style.css.map */

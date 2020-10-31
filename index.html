@@ -7,6 +7,34 @@
     <link href="CSS/style.css" rel="stylesheet">
 </head>
 <body>
+    <div id="selectionTitle">
+        <h1>
+            Select your preferable fruit!
+        </h1>
+    </div>
+
+    <div id="selectionContainer">
+        <div class="selections" id="selection-1" onclick="select('Apple')">
+            <h2>
+                Apple
+            </h2>
+            <img class="images" src="images/apple.jpg">
+        </div>
+        <div class="selections" id="selection-2" onclick="select('Orange')">
+            <h2>
+                Orange
+            </h2>
+            <img class="images" src="images/orange.jpg">
+        </div>
+        <div class="selections" id="selection-3" onclick="select('Banana')">
+            <h2>
+                Banana
+            </h2>
+            <img class="images" src="images/banana.jpg">            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
     <script src="JS/app.js"></script>
 </body>
 </html>
